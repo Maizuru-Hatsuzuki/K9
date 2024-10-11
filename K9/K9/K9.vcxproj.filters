@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SwordWorld3">
+      <UniqueIdentifier>{3e1509d9-61c6-4743-b1a5-bda88356c3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SwordWorld3">
+      <UniqueIdentifier>{50a00eae-848d-43fb-8bf9-a01f1bd275b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\K9Src">
+      <UniqueIdentifier>{edab7da1-0e7a-4b74-8786-68fdfb148eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\K9">
+      <UniqueIdentifier>{b8e992a2-77dc-4921-b3f3-19730311e5fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\S3Logic.cpp">
+      <Filter>Source Files\SwordWorld3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\K9Logic.cpp">
+      <Filter>Source Files\K9Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\K9WindowsControl.cpp">
+      <Filter>Source Files\K9Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\Include\BaseRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Include\kmclass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Include\S3Logic.h">
+      <Filter>Header Files\SwordWorld3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Include\K9.h">
+      <Filter>Header Files\K9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Include\K9Logic.h">
+      <Filter>Header Files\K9</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
